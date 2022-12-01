@@ -34,3 +34,76 @@
 # import random
 # random.shuffle(list)
 # print('->', list) 
+
+# Задача №4: Задайте список из n чисел последовательности (1 + 1/n)^n и выведите на экран их сумму.
+
+# Пример:
+
+# Для n=4 {1: 2, 2: 2.25, 3: 2.37, 4: 2.44} Сумма 9.06
+
+# n = int(input())
+# lst = [round((1+1/i)**i, 3) 
+# for i in range(1, n+1)]
+# print(f'Последовательность: {lst}\nСумма: {round(sum(lst), 2)}')
+
+# Задача №5: Задайте список из N элементов, заполненных числами из промежутка [-N, N].
+# Найдите произведение элементов на указанных индексах. Индексы вводятся одной строкой, через пробел.
+# n = 3
+# [-3, -2, -1, 0, 1, 2, 3]
+# --> 0 2 3
+# -3 * -1 * 0 = 0
+# Вывод: 0
+
+# n = int(input('Введите целое число: '))
+# list = [i for i in range(-n, n+1)]
+# print(list)
+# index =input('Введите список чисел,разделенный пробелами: ').split()
+# for i in range(len(index)):
+#     index[i] = int(index[i])
+# print(index)
+
+# print ('Список: ' + str(list))
+# print ('Индексы : ' + str(index))
+ 
+# x=[]
+# for i in index:
+#     x.append(list[i])
+# from functools import reduce
+# import operator
+# res=reduce(operator.mul,x, 1)
+# print ('Результат : ' + str(res))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
