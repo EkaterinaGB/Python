@@ -1,12 +1,3 @@
-# from datetime import datetime as dt
-# from time import time as t
-
-# def number_logger(data):
-#     t = dt.now().strtime('%H:%M')
-#     with open('log.csv', 'a') as file:
-#         file.write('{};number;{}'
-#                      .format(t, data))
-
 import logging
 
 logging.basicConfig(
